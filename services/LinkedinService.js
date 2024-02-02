@@ -21,6 +21,7 @@ class LinkedinService
             ]
         })
         const page = await browser.newPage()
+        page.setDefaultNavigationTimeout(0)
         // await useProxy(page, 'http://a7fc0f21c2899ddee9dac40a1d3c5fc904186b1b:device=desktop@proxy.zenrows.com:8001')
 
         await page.goto(this.url)
