@@ -30,7 +30,6 @@ class JudicialService
         await page.type('#frmBusquedajurisprudencia_TEXT', query)
         await page.click('#srcjur_search')
         await page.waitForSelector('#jurisprudenciaresults_searchresults')
-        await page.screenshot({path: 'example1.png'})
         await page.waitForSelector('#jurisprudenciaresults')
 
         const links = await page.evaluate(resultsSelector => {

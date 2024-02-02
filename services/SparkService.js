@@ -30,7 +30,6 @@ class LinkedinService
         await page.type('.login-form__input[name="username"]', 'EP2401T_1')
         await page.type('.login-form__input[name="password"]', 'U4fWuTV')
         await page.click('form.js-login-form button[type="submit"]')
-        // await page.screenshot({path: 'example1.png'})
 
         await page.waitForSelector('input.search-global-typeahead__input')
         await page.goto(`https://www.linkedin.com/search/results/companies/?keywords=${query}`)

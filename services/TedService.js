@@ -23,7 +23,6 @@ class TedService
         })
         const page = await browser.newPage()
         await page.goto(this.url)
-        await page.screenshot({path: 'example11.png'})
 
         await page.waitForSelector('#quick-search .ui-autocomplete-input')
         await page.type('#quickSearchCriteria', query)

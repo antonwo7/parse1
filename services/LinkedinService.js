@@ -36,7 +36,6 @@ class LinkedinService
         await page.type('#session_password', 'cobain1967')
         await page.click('button[data-id="sign-in-form__submit-btn"]')
         await page.waitForTimeout(2000)
-        await page.screenshot({path: 'example1.png'})
 
         // return {
         //     logo_url: 'https://media.licdn.com/dms/image/C4E0BAQEIDo7ZGoYLBg/company-logo_200_200/0/1673609632072?e=1713398400&v=beta&t=dp31FxlOAfQeA0P3_XBDGEs4uQCtDkdT9uISAsAyqLg',//block.querySelector('.ivm-image-view-model img').getAttribute('src'),
@@ -44,7 +43,6 @@ class LinkedinService
         // }
 
         await page.waitForSelector('input.search-global-typeahead__input')
-        await page.screenshot({path: 'example2.png'})
         await page.goto(`https://www.linkedin.com/search/results/companies/?keywords=${query}`)
         await page.waitForSelector('main.scaffold-layout__main')
         await page.waitForSelector('.search-results-container')
@@ -79,7 +77,6 @@ class LinkedinService
                 scrollCount += 1
             }
 
-            await page.screenshot({path: 'example3.png'})
             const peopleData = await page.evaluate(resultsSelector => {
                 const blocks = Array.from(document.querySelectorAll('.artdeco-card.org-people-profile-card__card-spacing ul li'));
                 if (!blocks.length) return [];
