@@ -9,7 +9,17 @@ class TedService
             defaultViewport: {
                 width: 1920,
                 height: 1780
-            }
+            },
+            executablePath: process.env.NODE_ENV === 'production'
+                ? process.env.PUPPETEER_EXECUTABLE_PATH
+                : puppeteer.executablePath(),
+            args: [
+                "--disable-setuid-sandbox",
+                "--no-sandbox",
+                "--single-process",
+                "--no-zygote",
+                '--proxy-server=http://a7fc0f21c2899ddee9dac40a1d3c5fc904186b1b:device=desktop@proxy.zenrows.com:8001'
+            ]
         })
         const page = await browser.newPage()
         await page.goto(this.url)
