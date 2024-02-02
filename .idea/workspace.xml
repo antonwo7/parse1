@@ -18,9 +18,30 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../parse-test" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="imageTag" value="" />
+          <option name="buildCliOptions" value="" />
+          <option name="command" value="" />
+          <option name="containerName" value="" />
+          <option name="entrypoint" value="" />
+          <option name="commandLineOptions" value="" />
+          <option name="sourceFilePath" value="Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.Dockerfile" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -30,11 +51,41 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1706875795190</updated>
-      <workItem from="1706875796266" duration="3852000" />
+      <workItem from="1706875796266" duration="12423000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="291" y="102" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1706895009889">
+      <screen x="0" y="0" width="1676" height="896" />
+    </state>
+    <state x="291" y="102" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1676.896@0.0.1676.896" timestamp="1706895009889" />
+    <state x="617" y="202" key="FileChooserDialogImpl" timestamp="1706904709771">
+      <screen x="0" y="0" width="1676" height="896" />
+    </state>
+    <state x="617" y="202" key="FileChooserDialogImpl/0.0.1676.896@0.0.1676.896" timestamp="1706904709771" />
+    <state width="1632" height="234" key="GridCell.Tab.0.bottom" timestamp="1706904233670">
+      <screen x="0" y="0" width="1676" height="896" />
+    </state>
+    <state width="1632" height="234" key="GridCell.Tab.0.bottom/0.0.1676.896@0.0.1676.896" timestamp="1706904233670" />
+    <state width="1632" height="234" key="GridCell.Tab.0.center" timestamp="1706904233670">
+      <screen x="0" y="0" width="1676" height="896" />
+    </state>
+    <state width="1632" height="234" key="GridCell.Tab.0.center/0.0.1676.896@0.0.1676.896" timestamp="1706904233670" />
+    <state width="1632" height="234" key="GridCell.Tab.0.left" timestamp="1706904233670">
+      <screen x="0" y="0" width="1676" height="896" />
+    </state>
+    <state width="1632" height="234" key="GridCell.Tab.0.left/0.0.1676.896@0.0.1676.896" timestamp="1706904233670" />
+    <state width="1632" height="234" key="GridCell.Tab.0.right" timestamp="1706904233670">
+      <screen x="0" y="0" width="1676" height="896" />
+    </state>
+    <state width="1632" height="234" key="GridCell.Tab.0.right/0.0.1676.896@0.0.1676.896" timestamp="1706904233670" />
+    <state x="92" y="92" width="1491" height="711" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1706904515533">
+      <screen x="0" y="0" width="1676" height="896" />
+    </state>
+    <state x="92" y="92" width="1491" height="711" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1676.896@0.0.1676.896" timestamp="1706904515533" />
   </component>
 </project>

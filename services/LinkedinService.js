@@ -1,5 +1,4 @@
 const puppeteer = require('puppeteer')
-require('dotenv').config()
 
 class LinkedinService
 {
@@ -64,7 +63,7 @@ class LinkedinService
             await page.waitForSelector('.artdeco-card.org-people-profile-card__card-spacing')
 
             let prevHeight = -1
-            let maxScrolls = 3
+            let maxScrolls = 1
             let scrollCount = 0
 
             while (scrollCount < maxScrolls) {
